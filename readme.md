@@ -9,7 +9,7 @@ Written by Brandon T. Locke; portions from Thomas G. Padilla
 **This tutorial will demonstrate some of the most popular and powerful features of OpenRefine, including geocoding using an API, algorithmic word normalization and correction, and working with multi-value cells.**
 
 ### Data
-**You can [download a .zip file of the following three datasets](@@@@@).**
+**You can [download a .zip file of the following three datasets](https://github.com/brandontlocke/hst489-organizingdata/raw/master/organizingdata.zip).**
 
 #### Comic Book Metadata (**authors-people.csv**)
 Dataset comprising records for comic-books and books relating to comics in the British National Bibliography.[See the full readme](http://www.thomaspadilla.org/data/dataprep/Readme.txt)
