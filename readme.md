@@ -128,7 +128,7 @@ The other method of transformation allows you to utilize the [OpenRefine Express
 *We'll also just do a few rows, since this can take awhile*
 
 - Once you have an API key, click Author-Persons > Filter and type in 'Aaron, Jason'
-- Location > Edit Column > Add Column by Fetching URLs... and enter this expression: `'http://open.mapquestapi.com/nominatim/v1/search.php?' + 'key=YOURKEY&' + 'format=json&' + 'q=' + escape(value, 'url')` **Note: In the future, be sure to add your own API key in the above expression where it says `key=`**
+- Location > Edit Column > Add Column by Fetching URLs... and enter this expression: `'http://open.mapquestapi.com/nominatim/v1/search.php?' + 'key=YOURKEY&' + 'format=json&' + 'q=' + escape(value, 'url')` **Note: Be sure to add your own API key in the above expression where it says `key=`**
 - Name the column 'geocodingResponse' and click OK. This will take quite some time to finish.
 - The new 'geocodingResponse' column won't be very clear or useful - it will be the full JSON response with all of the information Google has about that location.
 - Click geocodingResponse > Edit Column > Add Column based on this column
